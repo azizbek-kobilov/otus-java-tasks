@@ -1,9 +1,11 @@
+package src;
+
 import java.util.Scanner;
 
-public class HomeWork {
+public class TestingSystem {
     public static void main(String[] args) {
         String[][] questions = {
-                {"Скольк32 месяцев в году?", "1) 5", "2) 8", "3) 12", "3"},
+                {"Сколько месяцев в году?", "1) 5", "2) 8", "3) 12", "3"},
                 {"Сколько дней в неделе?", "1) 13", "2) 7", "3) 4", "2"},
                 {"Сколько секунд в минуте?", "1) 60", "2) 35", "3) 22", "1"}
         };
