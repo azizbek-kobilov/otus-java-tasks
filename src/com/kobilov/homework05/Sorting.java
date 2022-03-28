@@ -1,4 +1,4 @@
-package src;
+package com.kobilov.homework05;
 
 import java.util.ArrayList;
 import java.util.Collections;

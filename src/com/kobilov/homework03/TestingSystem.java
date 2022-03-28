@@ -1,4 +1,4 @@
-package src;
+package com.kobilov.homework03;
 
 import java.util.Scanner;
 
