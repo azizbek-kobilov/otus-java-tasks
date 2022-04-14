@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Work</title>
+</head>
+<body>
+<h2>Форма добавления информации о студенте</h2>
+<form>
+    <label for="fname">Имя студента:</label><input type="text" id="fname"><br>
+    <label for="fdate">Дата рождения:</label><input type="date" id="fdate"><br>
+    <label for="fsex">Пол:</label>
+    <select size="1" id="fsex">
+        <option value="Мужской">Мужской</option>
+        <option value="Женский">Женский</option>
+    </select>
+    <br><br>
+    <input type="button" onclick="addStudent()" value="Добавить">
+</form>
+
+<h2>Таблица студентов</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Имя студента</th>
+        <th>Пол</th>
+        <th>Дата рождения</th>
+        <th>Возраст</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Кобилов Азизбек</td>
+        <td>Мужской</td>
+        <td>27.06.2000</td>
+        <td>21</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4"> </td>
+    </tr>
+    <tr>
+        <td colspan="3">Средний возраст студентов</td>
+        <td id="averageAge">65</td>
+    </tr>
+    </tfoot>
+</table>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

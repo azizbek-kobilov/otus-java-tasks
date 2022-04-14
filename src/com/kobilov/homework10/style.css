@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+form {
+    width: 500px;
+    border: 1px solid SteelBlue;
+    padding: 15px;
+}
+
+label {
+  width: 250px;
+  display: inline-block;
+}
+
+input[type=text], input[type=date], select {
+    margin: 3px 0px;
+    width: 240px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid SteelBlue;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid SteelBlue;
+  text-align: left;
+}
+
+th {
+  width: 10em;
+}
